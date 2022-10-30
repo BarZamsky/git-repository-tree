@@ -1,0 +1,31 @@
+{
+  "sha": "0cb92d5ce4044fc643bf6478d02d62cacfa1f2f9",
+  "url": "https://api.github.com/repos/BarZamsky/git-repository-tree/git/trees/0cb92d5ce4044fc643bf6478d02d62cacfa1f2f9",
+  "tree": [
+      {
+          "path": ".eslintrc.js",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f6c62bee279534a2a2ce7ee4424670655fbd2a4c",
+          "size": 631,
+          "url": "https://api.github.com/repos/BarZamsky/git-repository-tree/git/blobs/f6c62bee279534a2a2ce7ee4424670655fbd2a4c"
+      },
+      {
+          "path": ".gitignore",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "cf943589e7a21c5b66dcbc9343f66f7c8d6b0815",
+          "size": 395,
+          "url": "https://api.github.com/repos/BarZamsky/git-repository-tree/git/blobs/cf943589e7a21c5b66dcbc9343f66f7c8d6b0815"
+      },
+      {
+          "path": ".prettierrc",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "dcb72794f5300a3e0ccd2ad0669d802b62f3d370",
+          "size": 51,
+          "url": "https://api.github.com/repos/BarZamsky/git-repository-tree/git/blobs/dcb72794f5300a3e0ccd2ad0669d802b62f3d370"
+      }
+  ],
+  "truncated": false
+}

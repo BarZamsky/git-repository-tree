@@ -1,0 +1,28 @@
+{
+  "owner": "bar",
+  "repositoryName": "repo",
+  "tree": [
+      {
+          "file": {
+              "path": ".eslintrc.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "f6c62bee279534a2a2ce7ee4424670655fbd2a4c",
+              "size": 631,
+              "url": "https://api.github.com/repos/BarZamsky/git-repository-tree/git/blobs/f6c62bee279534a2a2ce7ee4424670655fbd2a4c"
+          },
+          "isDir": false
+      },
+      {
+          "file": {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "cf943589e7a21c5b66dcbc9343f66f7c8d6b0815",
+              "size": 395,
+              "url": "https://api.github.com/repos/BarZamsky/git-repository-tree/git/blobs/cf943589e7a21c5b66dcbc9343f66f7c8d6b0815"
+          },
+          "isDir": false
+      }
+  ]
+}

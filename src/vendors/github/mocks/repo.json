@@ -1,0 +1,96 @@
+{
+  "name": "main",
+  "commit": {
+      "sha": "0cb92d5ce4044fc643bf6478d02d62cacfa1f2f9",
+      "node_id": "C_kwDOIVpONtoAKDBjYjkyZDVjZTQwNDRmYzY0M2JmNjQ3OGQwMmQ2MmNhY2ZhMWYyZjk",
+      "commit": {
+          "author": {
+              "name": "barzamsky",
+              "email": "barzamsky1@gmail.com",
+              "date": "2022-10-30T14:20:49Z"
+          },
+          "committer": {
+              "name": "barzamsky",
+              "email": "barzamsky1@gmail.com",
+              "date": "2022-10-30T14:20:49Z"
+          },
+          "message": "files",
+          "tree": {
+              "sha": "7ff24345d27c727131e6cb617781d246c5918177",
+              "url": "https://api.github.com/repos/BarZamsky/git-repository-tree/git/trees/7ff24345d27c727131e6cb617781d246c5918177"
+          },
+          "url": "https://api.github.com/repos/BarZamsky/git-repository-tree/git/commits/0cb92d5ce4044fc643bf6478d02d62cacfa1f2f9",
+          "comment_count": 0,
+          "verification": {
+              "verified": false,
+              "reason": "unsigned",
+              "signature": null,
+              "payload": null
+          }
+      },
+      "url": "https://api.github.com/repos/BarZamsky/git-repository-tree/commits/0cb92d5ce4044fc643bf6478d02d62cacfa1f2f9",
+      "html_url": "https://github.com/BarZamsky/git-repository-tree/commit/0cb92d5ce4044fc643bf6478d02d62cacfa1f2f9",
+      "comments_url": "https://api.github.com/repos/BarZamsky/git-repository-tree/commits/0cb92d5ce4044fc643bf6478d02d62cacfa1f2f9/comments",
+      "author": {
+          "login": "BarZamsky",
+          "id": 33618440,
+          "node_id": "MDQ6VXNlcjMzNjE4NDQw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/33618440?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/BarZamsky",
+          "html_url": "https://github.com/BarZamsky",
+          "followers_url": "https://api.github.com/users/BarZamsky/followers",
+          "following_url": "https://api.github.com/users/BarZamsky/following{/other_user}",
+          "gists_url": "https://api.github.com/users/BarZamsky/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/BarZamsky/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/BarZamsky/subscriptions",
+          "organizations_url": "https://api.github.com/users/BarZamsky/orgs",
+          "repos_url": "https://api.github.com/users/BarZamsky/repos",
+          "events_url": "https://api.github.com/users/BarZamsky/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/BarZamsky/received_events",
+          "type": "User",
+          "site_admin": false
+      },
+      "committer": {
+          "login": "BarZamsky",
+          "id": 33618440,
+          "node_id": "MDQ6VXNlcjMzNjE4NDQw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/33618440?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/BarZamsky",
+          "html_url": "https://github.com/BarZamsky",
+          "followers_url": "https://api.github.com/users/BarZamsky/followers",
+          "following_url": "https://api.github.com/users/BarZamsky/following{/other_user}",
+          "gists_url": "https://api.github.com/users/BarZamsky/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/BarZamsky/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/BarZamsky/subscriptions",
+          "organizations_url": "https://api.github.com/users/BarZamsky/orgs",
+          "repos_url": "https://api.github.com/users/BarZamsky/repos",
+          "events_url": "https://api.github.com/users/BarZamsky/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/BarZamsky/received_events",
+          "type": "User",
+          "site_admin": false
+      },
+      "parents": [
+          {
+              "sha": "4d0b9b94f8c06f40b00eee515c1e8af98617c231",
+              "url": "https://api.github.com/repos/BarZamsky/git-repository-tree/commits/4d0b9b94f8c06f40b00eee515c1e8af98617c231",
+              "html_url": "https://github.com/BarZamsky/git-repository-tree/commit/4d0b9b94f8c06f40b00eee515c1e8af98617c231"
+          }
+      ]
+  },
+  "_links": {
+      "self": "https://api.github.com/repos/BarZamsky/git-repository-tree/branches/main",
+      "html": "https://github.com/BarZamsky/git-repository-tree/tree/main"
+  },
+  "protected": false,
+  "protection": {
+      "enabled": false,
+      "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+      }
+  },
+  "protection_url": "https://api.github.com/repos/BarZamsky/git-repository-tree/branches/main/protection"
+}
