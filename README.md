@@ -29,6 +29,11 @@ The response is in the following model:
 }
 ```
 
+## Live demo
+
+Enter the link below and set the required owner and repository name parameters
+https://git-repository-tree.herokuapp.com/github/:OWNER/:REPONAME/tree
+
 ## Installation
 
 ```bash

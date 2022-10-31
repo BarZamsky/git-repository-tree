@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  dev:
+    container_name: git-repo-tree
+    image: git-repo-tree:1.0.0
+    build:
+      context: .
+      target: development
+      dockerfile: ./Dockerfile
+    command: npm run start:dev
+    environment:
+      - PORT=8080
+      - GITHUB_API_URL=https://api.github.com
+      - GITHUB_API_TOKEN=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
+    ports:
+      - 8080:8080
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    restart: always
