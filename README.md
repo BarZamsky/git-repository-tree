@@ -45,6 +45,14 @@ $ npm run start
 $ npm run start:dev
 ```
 
+## Run with docker
+
+run the following command in order to run the project on a docker container
+
+```
+$ sh run_me.sh
+```
+
 ## Test
 
 ```bash

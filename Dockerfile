@@ -1,15 +1,13 @@
-FROM node:alpine
+FROM node:18
 
-RUN npm install -g ts-node-dev
+WORKDIR /usr/src/app
 
-RUN mkdir -p /app/server
-
-WORKDIR /app/server
-
-COPY package*.json /app/server/
+COPY package*.json ./
 
 RUN npm install
 
-COPY . /app/server/
+COPY . .
 
-CMD ["npm","run", "dev"]
+RUN npm run build
+
+CMD [ "node", "dist/main.js" ]
