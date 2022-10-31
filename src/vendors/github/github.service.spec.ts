@@ -19,7 +19,6 @@ describe('Github service tests', () => {
     expect(res).toEqual('0cb92d5ce4044fc643bf6478d02d62cacfa1f2f9');
   });
   // it('should create repo file tree', async () => {
-  //   const mockGet = jest.spyOn(httpService, 'get');
   //   mockGet.mockImplementation((url) => {
   //     if (url === 'https://api.github.com/repos/bar/repo/branches/master') {
   //       return {

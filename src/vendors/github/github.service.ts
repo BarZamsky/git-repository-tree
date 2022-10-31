@@ -1,6 +1,6 @@
 import { HttpService } from '@nestjs/axios';
-import { Injectable } from '@nestjs/common';
-import { catchError, lastValueFrom, map } from 'rxjs';
+import { Injectable, NotFoundException } from '@nestjs/common';
+import { catchError, lastValueFrom, map, NotFoundError } from 'rxjs';
 import { FileObject, GithubFileModel, RepoFileTreeResponse } from './types';
 
 @Injectable()
@@ -31,7 +31,12 @@ export class GithubService {
       .pipe(map((res) => res.data))
       .pipe(
         catchError((err) => {
-          throw new Error(err);
+          if (err.response.status === 404) {
+            throw new NotFoundException(
+              'Repository was not found for given owner',
+            );
+          }
+          throw new Error(err.data.message);
         }),
       );
 
